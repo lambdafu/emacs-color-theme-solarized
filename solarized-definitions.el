@@ -83,6 +83,7 @@ the \"Gen RGB\" column in solarized-definitions.el to improve them further."
                                  3
                                (if solarized-broken-srgb 2 1))
                            (case (display-color-cells)
+                             (256 4)
                              (16 4)
                              (8  5)
                              (otherwise 3)))))
